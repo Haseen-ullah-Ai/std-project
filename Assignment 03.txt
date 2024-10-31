@@ -1,0 +1,2 @@
+animal = input("what is your favorite animal")
+print(f"my favorite animal is also{animal}!")

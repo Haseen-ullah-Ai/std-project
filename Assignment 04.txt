@@ -1,0 +1,13 @@
+# def main():                       
+akram : int = 21
+ali : int = 20
+salman :  int = 23
+naheem : int = 56
+saqib : int = 24
+print("khan is "  + str (akram))
+print(" akram is " + str (ali))
+print("naheem is " + str (salman))
+print("iqbal is " + str (naheem))
+print("akhtar is " + str (saqib))
+  # if __name__=='__main__':
+  #   main()

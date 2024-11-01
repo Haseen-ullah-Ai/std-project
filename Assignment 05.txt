@@ -1,0 +1,5 @@
+side1 = float(input("what is the length of side 1?"))
+side2 = float(input("what is the lenght of side 2?"))
+side3 = float(input("what is the lenght of side 3?"))
+perimeter = side1 + side2 +side3
+print(f"the perimeter of the triangle is {perimeter}")

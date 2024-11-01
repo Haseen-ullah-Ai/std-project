@@ -1,0 +1,10 @@
+c : int = 542165 
+def main():
+   mass :float = float(input("enter kilos of mass:"))
+   energy_in_joules: float = mass * (c ** 2)
+   print("e = m * c^2...")
+   print("m = " + str (mass) + "kg")
+   print("c = " + str(c) + "m/s")
+   print(str(energy_in_joules) + "joules of energy!")
+if __name__== '__main__':
+    main()

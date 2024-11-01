@@ -1,0 +1,7 @@
+inches_in_foot : int = 12
+def main():
+  feet: float = float(input("enter number of feet:"))
+  inches: float = feet * inches_in_foot
+  print("that is ", inches, "inches!")
+if __name__ == '__main__':
+  main() 

@@ -1,0 +1,8 @@
+import math 
+def main():
+  ab: float = float(input("enter the length of ab:"))
+  ac: float = float(input("enter the lenght of ac:"))
+  bc: float =  math.sqrt(ab**2 + ac**2)
+  print("the lenght of bc (the hypotenuse) is:" + str(bc))
+if __name__=='__main__':
+      main()

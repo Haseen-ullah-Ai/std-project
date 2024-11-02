@@ -1,0 +1,8 @@
+sentance_start: str = "panaversity is fun. i learned to program and used python to make my"
+def main():
+  adjective: str = input("please type an adjective and press enter j")
+  noun: str = input("please type a noun and press enter ")
+  verb: str = input ("please type a verb and press enter ")
+  print(sentance_start + adjective + "" + noun + "" + verb + "!")
+if __name__ == '__main__':
+    main()

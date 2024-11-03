@@ -1,0 +1,19 @@
+A : int = 16
+B : int = 25
+C : int = 48
+def main():
+  user_age = int(input("how old are you "))
+  if user_age >= A:
+      print("you can vote in pakistan where the voting age is " + str(A) + ".")
+  else:
+      print("you cannot vote in pakistan where the voting age is " + str(A) + ".")
+  if user_age >= B:
+      print("you can vote in punjab where the voting age is " + str(B) + ".")
+  else:
+      print("you cannot vote in punjab where the voting age is " + str(B) + "")
+  if user_age >= C:
+      print("you can vote in kpk where the voting age is " + str(C) + ".")
+  else:
+      print("you cannot vote in kpk where the voting age is " + str(C) + ".")
+if __name__ == '__main__':
+  main()

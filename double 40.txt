@@ -1,0 +1,9 @@
+def double (num: int):
+    return num * 2
+def main():
+  num = int (input("enter a number:"))
+  num_times_2 = double(num)
+  num_times_2 = double(num)
+  print("double that is", num_times_2)
+  if __name__ == '__main__':
+   main()

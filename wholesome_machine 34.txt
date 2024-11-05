@@ -1,0 +1,11 @@
+affirmation : str = "i am capable of doing anything i put my mind to."
+def main():
+  print("please type the following affirmation " + affirmation)
+  user_feedback = input()
+  while user_feedback != affirmation:
+    print("that was not the affirmation")
+    print("please type the following affirmation:" + affirmation)
+    user_feedback = input()
+    print("that's right :")
+if __name__ == '__main__':
+  main()  

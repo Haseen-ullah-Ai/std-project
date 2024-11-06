@@ -1,0 +1,12 @@
+prompt = "what do you want "
+joke = "Here is joke for your"
+sorry = "sorry, i only tell jokes"
+
+def main():
+  user_input =  input(prompt).strip().lower()
+  if "joke" in user_input:
+    print(joke)
+  else:
+      print(sorry)
+if __name__ == "__main__":
+  main()

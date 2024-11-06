@@ -1,0 +1,20 @@
+def main():
+  fruit : str = input("enter a fruit:")
+  stock = num_in_stock(fruit)
+  if stock == 0:
+    print("this fruit is not in stock")
+  else:
+    print("this fruit is in stock! here is how many:")
+def num_in_stock(fruit):
+  if fruit == 'apple':
+    return 2
+  if fruit == 'durian':
+    return 4
+  if fruit == 'pear':
+    return 10000
+  else:
+    return 100
+  if __name__ == '__main__':
+    main()
+
+

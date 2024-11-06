@@ -1,0 +1,22 @@
+import random
+
+def high_low_game():
+    print("Welcome to the High-Low Game!")
+    print("--------------------------------")
+    score = 0
+    round_number = 1
+    while round_number <= 5:
+        print(f"\nRound {round_number}")
+        player_number = random.randint(1, 100)
+        computer_number = random.randint(1, 100)
+        print(f"Your number is {player_number}")
+        guess = input("Do you think your number is higher or lower than the computer's? (higher/lower): ").strip().lower()
+        if (guess == "higher" and player_number > computer_number) or (guess == "lower" and player_number < computer_number):
+            print(f"You were right! The computer's number was {computer_number}")
+            score += 1
+        else:
+            print(f"Aww, that's incorrect. The computer's number was {computer_number}")
+        print(f"Your score is now {score}")
+        round_number += 1
+    print("\nThanks for playing!")
+high_low_game()
